@@ -1,0 +1,5 @@
+#!/bin/sh -l
+PATH=$PATH:/home/artoni/public_html/quotes/ad_hoc_python/bin
+/home/artoni/public_html/quotes/ad_hoc_python/bin/python /home/artoni/public_html/quotes/get_page.py
+/home/artoni/public_html/quotes/ad_hoc_python/bin/python /home/artoni/public_html/quotes/get_quotes.py
+rm /home/artoni/public_html/quotes/ghostdriver.log
